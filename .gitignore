@@ -1,0 +1,8 @@
+node_modules/
+tmp/
+*.log
+.idea
+gjslint.xml
+jshint.xml
+npm-debug.log
+log/application.log
