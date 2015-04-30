@@ -1,25 +1,26 @@
 {
   "name": "hubot-hublin",
   "description": "Hubot script to interact with hubl.in",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Linagora Folks",
   "license": "MIT",
-
-  "keywords": ["hubot", "hubot-scripts", "hublin", "webrtc", "hubl.in"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hublin",
+    "webrtc",
+    "hubl.in"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/linagora/hubot-hublin.git"
   },
-
   "bugs": {
     "url": "https://github.com/linagora/hubot-hublin/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +31,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
